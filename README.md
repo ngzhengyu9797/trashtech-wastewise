@@ -15,12 +15,6 @@ TrashTech is a low-data, Bahasa Melayu-friendly waste reporting and recycling re
 - Community leader queue showing report status
 - Responsive layout for desktop and mobile screens
 
-## Live demo
-
-The current hosted demo is available at:
-
-<https://trashtech-wastewise-demo.ngzhengyu9797.chatgpt.site>
-
 ## Run locally
 
 Prerequisite: Node.js 22 or newer.
@@ -36,13 +30,13 @@ Open the local URL shown by the development server. To create a production build
 npm run build
 ```
 
-## Upload to GitHub
+## Repository contents
 
-1. Download and unzip this project.
-2. Create a new empty repository on GitHub, for example `trashtech-wastewise`.
-3. Upload the **contents inside the unzipped folder** to the repository and commit them.
-
-For a larger upload, GitHub Desktop or the Git command line is more reliable than the browser uploader.
+- `app/` — the WasteWise interface and interactions
+- `public/desa-mentari-hero.png` — the hero image used by the landing page
+- `package.json` and `package-lock.json` — project dependencies and reproducible installs
+- `scripts/` — build, preview and artifact-validation helpers
+- `.openai/hosting.json` — hosting configuration for the existing deployment
 
 ## Important demo note
 
